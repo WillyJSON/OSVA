@@ -1,0 +1,43 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Local Streamlit configuration and generated output
+.streamlit/secrets.toml
+.streamlit/config.toml
+!/.streamlit/
+!/.streamlit/*.example.toml
+
+data/processed/*
+!data/processed/.gitkeep
+figure/*
+!figure/.gitkeep
+report/*
+!report/.gitkeep
+
+# Keep only the documented synthetic sample; raw recordings stay local
+data/raw/*
+!data/raw/.gitkeep
+
+# Personal planning and learning material
+assisstance/
+leanring/
+notebooks/
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
